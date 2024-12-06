@@ -11,12 +11,14 @@ public:
     double salary;
 
     // 4 parametrized constructor
-    Employee(string n, int i, string d, double s)
+    Employee(string name, int id, string dept, double salary)
     {
-        name = n;
-        id = i;
-        dept = d;
-        salary = s;
+        // here we used this pointer to the objects
+
+        this->name = name;
+        this->id = id;
+        this->dept = dept;
+        this->salary = salary;
     }
     // getInfo function will print all information
     void getInfo()
