@@ -35,9 +35,11 @@ int main()
     obj.display();
 
     B obj1;
+    obj.display();
     obj1.display1();
 
     C obj2;
     obj2.display2();
+    obj.display();
     return 0;
 }
